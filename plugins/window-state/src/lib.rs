@@ -37,8 +37,8 @@ pub enum Error {
     Io(#[from] std::io::Error),
     #[error(transparent)]
     Tauri(#[from] tauri::Error),
-    #[error(transparent)]
-    TauriApi(#[from] tauri::api::Error),
+    // #[error(transparent)]
+    // TauriApi(#[from] tauri::api::Error),
     #[error(transparent)]
     Bincode(#[from] Box<bincode::ErrorKind>),
 }

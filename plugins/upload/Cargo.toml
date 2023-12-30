@@ -26,3 +26,4 @@ read-progress-stream = "1.0.0"
 native-tls = [ "reqwest/native-tls" ]
 native-tls-vendored = [ "reqwest/native-tls-vendored" ]
 rustls-tls = [ "reqwest/rustls-tls" ]
+rustls-tls-native-roots = [ "reqwest/rustls-tls-native-roots" ]

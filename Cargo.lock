@@ -3321,7 +3321,7 @@ dependencies = [
  "jni-sys",
  "ndk-sys",
  "num_enum",
- "raw-window-handle",
+ "raw-window-handle 0.5.2",
  "thiserror",
 ]
 
@@ -4322,6 +4322,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f2ff9a1f06a88b01621b7ae906ef0211290d1c8a168a15542486a8f61c0833b9"
 
 [[package]]
+name = "raw-window-handle"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "42a9830a0e1b9fb145ebb365b8bc4ccd75f290f98c0247deafbbe2c75cefb544"
+
+[[package]]
 name = "read-progress-stream"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4488,7 +4494,7 @@ dependencies = [
  "objc",
  "objc-foundation",
  "objc_id",
- "raw-window-handle",
+ "raw-window-handle 0.5.2",
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",
@@ -5538,7 +5544,7 @@ dependencies = [
  "once_cell",
  "parking_lot",
  "png",
- "raw-window-handle",
+ "raw-window-handle 0.5.2",
  "scopeguard",
  "serde",
  "tao-macros",
@@ -5609,7 +5615,7 @@ dependencies = [
  "once_cell",
  "percent-encoding",
  "png",
- "raw-window-handle",
+ "raw-window-handle 0.5.2",
  "reqwest",
  "serde",
  "serde_json",
@@ -5782,7 +5788,7 @@ version = "2.0.0-alpha.2"
 dependencies = [
  "glib",
  "log",
- "raw-window-handle",
+ "raw-window-handle 0.6.0",
  "rfd",
  "serde",
  "serde_json",
@@ -6083,7 +6089,7 @@ dependencies = [
  "gtk",
  "http",
  "jni",
- "raw-window-handle",
+ "raw-window-handle 0.5.2",
  "serde",
  "serde_json",
  "tauri-utils",
@@ -6103,7 +6109,7 @@ dependencies = [
  "http",
  "jni",
  "percent-encoding",
- "raw-window-handle",
+ "raw-window-handle 0.5.2",
  "tauri-runtime",
  "tauri-utils",
  "webkit2gtk",
@@ -7155,7 +7161,7 @@ checksum = "29d30320647cfc3dc45554c8ad825b84831def81f967a2f7589931328ff9b16d"
 dependencies = [
  "cocoa 0.24.1",
  "objc",
- "raw-window-handle",
+ "raw-window-handle 0.5.2",
  "windows-sys 0.42.0",
 ]
 
@@ -7167,7 +7173,7 @@ checksum = "5931735e675b972fada30c7a402915d4d827aa5ef6c929c133d640c4b785e963"
 dependencies = [
  "cocoa 0.25.0",
  "objc",
- "raw-window-handle",
+ "raw-window-handle 0.5.2",
  "windows-sys 0.48.0",
 ]
 
